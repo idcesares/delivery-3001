@@ -13,7 +13,7 @@
 
 function totalComCupom(pedido, cliente) {
   let total = pedido.subtotal + pedido.frete;
-  if (pedido.subtotal > 50 &&
+  if (pedido.subtotal >= 50 &&
       cliente.pedidosAnteriores == 0) {
     let desconto = total * 0.10;
     total = total - desconto;
