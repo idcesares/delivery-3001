@@ -8,6 +8,7 @@ Atividade da Aula 7. Este é o **esqueleto**: os galhos principais já estão aq
 2. Crie o arquivo `docs/mapas/seu-primeiro-nome.md` neste repositório (botão **Add file > Create new file**; o GitHub cria a pasta sozinho se você escrever `docs/mapas/` antes do nome).
 3. Cole, troque cada `???` e acrescente pelo menos **um exemplo do Delivery 3001** em cada galho.
 4. Proponha a mudança. O GitHub desenha o mapa sozinho na aba **Preview**.
+5. **Travou no GitHub?** Poste o mapa na thread da Aula 7 no Teams (pode ser foto de um desenho no papel). O importante é o mapa chegar.
 
 ```mermaid
 flowchart LR
