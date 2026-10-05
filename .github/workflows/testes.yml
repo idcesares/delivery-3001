@@ -1,0 +1,26 @@
+name: Robô de testes
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cupom:
+    name: Casos automatizados do cupom
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar o Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Rodar os casos de docs/casos-de-teste.md
+        run: node tests/cupom.test.js

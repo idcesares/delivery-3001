@@ -1,0 +1,33 @@
+name: Chamado de suporte
+description: Algo não funciona como deveria, ou alguém pediu uma mudança.
+title: "[Chamado] "
+labels: ["chamado"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por avisar. Quanto mais concreto, mais rápido o time consegue reproduzir.
+  - type: input
+    id: quem
+    attributes:
+      label: Quem está reportando?
+      description: Cliente, restaurante, entregador, marketing, time de desenvolvimento...
+    validations:
+      required: true
+  - type: textarea
+    id: aconteceu
+    attributes:
+      label: O que aconteceu?
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: O que você esperava que acontecesse?
+    validations:
+      required: true
+  - type: textarea
+    id: passos
+    attributes:
+      label: Como repetir o problema?
+      description: Valores, horário, aparelho, cidade. Um passo por linha.
