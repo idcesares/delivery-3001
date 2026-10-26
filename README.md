@@ -18,7 +18,7 @@ Não precisa instalar nada nem saber programar. Para acompanhar a aula, basta ol
 
 | | |
 |---|---|
-| **Versão em produção** | [v1.0.0](https://github.com/idcesares/delivery-3001/releases) |
+| **Versão em produção** | [v1.0.1](https://github.com/idcesares/delivery-3001/releases) |
 | **Chamados abertos** | [Issues](https://github.com/idcesares/delivery-3001/issues) |
 | **Mudanças propostas** | [Pull requests](https://github.com/idcesares/delivery-3001/pulls) |
 | **O que mudou em cada versão** | [CHANGELOG.md](CHANGELOG.md) |

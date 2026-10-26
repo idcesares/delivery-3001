@@ -8,6 +8,16 @@ Cada versão é uma **etiqueta (tag)** no histórico do repositório. Clicando e
 
 (as mudanças aceitas que ainda não ganharam versão aparecem aqui)
 
+## [v1.0.1] · 26/10/2026
+
+Correção de defeito. Nada novo para o cliente: só o que já devia funcionar.
+
+### Corrigido
+- Chamado #1: pedido de exatamente R$ 50,00 agora recebe o desconto do cupom PRIMEIRA10 (a regra diz "a partir de R$ 50,00"; o código tratava R$ 50,00 como abaixo do mínimo)
+
+### Ainda em aberto
+- Chamados #2 a #5 e o desafio #6 (dois defeitos da Aula 6: frete dentro do desconto e teto de R$ 15 ausente)
+
 ## [v1.0.0] · 05/10/2026
 
 Primeira versão em produção.
