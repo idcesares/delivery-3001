@@ -8,6 +8,8 @@ Ele nasceu no chat da Aula 6, quando a turma levantou os requisitos de um app de
 
 Aqui a turma faz o que um time de software faz depois da entrega: recebe chamados, decide o que corrigir, testa, versiona e lança de novo.
 
+> **No fim do semestre,** o repositório virou uma vitrine. Nada aqui é obrigatório nem vale nota: quem quiser publica uma tela, propõe uma mudança ou só explora. O registro da aula acontece no chat do Teams.
+
 ### Comece por aqui
 
 Não precisa instalar nada nem saber programar. Para acompanhar a aula, basta olhar três coisas:
@@ -15,6 +17,7 @@ Não precisa instalar nada nem saber programar. Para acompanhar a aula, basta ol
 1. **[Casos de uso](docs/casos-de-uso.md):** quem faz o quê no app, com o diagrama e o UC-03 Aplicar cupom detalhado.
 2. **[Casos de teste](docs/casos-de-teste.md):** os testes da turma. A primeira tabela é a que o robô executa sozinho.
 3. **[Chamados](https://github.com/idcesares/delivery-3001/issues):** o que os clientes e o time reclamaram desde que a v1.0.0 entrou no ar.
+4. **[Telas da turma](telas/):** as telas do app criadas com IA na Arena dos métodos, cada uma com o método usado.
 
 | | |
 |---|---|
@@ -35,8 +38,9 @@ delivery-3001/
 │   ├── requisitos.md       o que o sistema deve fazer (RF) e como deve se comportar (RNF)
 │   ├── casos-de-uso.md     quem faz o quê, com diagrama e o UC-03 Aplicar cupom detalhado
 │   ├── casos-de-teste.md   os testes da turma, incluindo o quadro que o robô executa
-│   ├── mapa-testes.md      esqueleto do mapa mental de testes
+│   ├── mapa-testes.md      esqueleto do mapa mental de testes (atividade opcional)
 │   └── diagramas/          o diagrama de casos de uso em formato diagrams.net
+├── telas/                  telas do app feitas pela turma com IA (opcional)
 ├── src/
 │   └── cupom.js            a regra do cupom PRIMEIRA10 (sim, com defeitos)
 └── tests/
@@ -57,13 +61,13 @@ flowchart LR
 
 ## Como participar (sem instalar nada)
 
-Para a tarefa de casa (o mapa mental) ou para o desafio #6. Tudo pelo navegador, sem saber programar.
+Se você quiser publicar uma tela, completar o mapa mental ou tentar o desafio #6. É opcional e tudo é pelo navegador, sem saber programar.
 
 1. **Entre na sua conta do GitHub.** Não tem? Crie em [github.com/signup](https://github.com/signup).
 2. **Abra o arquivo** que você quer mudar (por exemplo, [docs/casos-de-teste.md](docs/casos-de-teste.md)) ou, para criar um arquivo novo, clique em **Add file > Create new file**.
 3. **Clique no lápis** (canto superior direito do arquivo). Se o GitHub perguntar, clique em **Fork this repository**: ele cria a sua cópia do projeto, na sua conta.
 4. **Faça a mudança** direto na tela.
-5. Clique em **Commit changes...** e escreva uma frase dizendo o que você fez. Ex.: `Mapa mental da Ana`.
+5. Clique em **Commit changes...** e escreva uma frase dizendo o que você fez. Ex.: `Tela da Ana`. Para publicar uma tela, crie o arquivo em `telas/` (por exemplo, `telas/ana-dsdm.html`).
 6. Clique em **Propose changes** e depois em **Create pull request**.
 7. **Espere o robô.** Em menos de um minuto aparece um sinal verde ou um X vermelho na sua proposta.
 
