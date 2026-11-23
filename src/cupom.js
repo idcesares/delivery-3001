@@ -1,5 +1,5 @@
 // Delivery 3001 · regra do cupom PRIMEIRA10
-// Versão em produção: v1.0.0
+// Versão em produção: v1.0.1
 //
 // Regra combinada com o negócio (docs/casos-de-uso.md, UC-03):
 //   10% de desconto sobre o subtotal
