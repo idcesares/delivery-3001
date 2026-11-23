@@ -1,8 +1,8 @@
 # Mapa mental · testes de software
 
-Atividade da Aula 7. Este é o **esqueleto**: os galhos principais já estão aqui, mas metade das folhas está com `???`.
+Atividade opcional da Aula 7, mantida como material de estudo. Este é o **esqueleto**: os galhos principais já estão aqui, mas metade das folhas está com `???`.
 
-**Sua tarefa:** fazer o seu mapa completo, com tudo o que vimos sobre testes nas Aulas 6 e 7.
+**Se quiser:** fazer o seu mapa completo, com tudo o que vimos sobre testes nas Aulas 6 e 7.
 
 1. Copie o bloco abaixo.
 2. Crie o arquivo `docs/mapas/seu-primeiro-nome.md` neste repositório (botão **Add file > Create new file**; o GitHub cria a pasta sozinho se você escrever `docs/mapas/` antes do nome).
